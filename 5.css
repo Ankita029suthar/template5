@@ -1,0 +1,295 @@
+* {
+     padding: 0px;
+     margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+}
+
+body {
+     color: #000 !important;
+     background-color: #f1f1f1 !important;
+     width: 100%;
+}
+
+.head {
+     margin-top: 50px;
+     margin-bottom: 80px;
+     text-align: center;
+}
+
+.black {
+     background-color: black;
+     color: white;
+     padding: 10px;
+}
+
+.head h1 {
+     padding: 15px;
+     font-size: 50px;
+     font-weight: 300;
+}
+
+.head h3 {
+     font-weight: 300;
+     margin-bottom: 20px;
+     padding: 10px;
+     letter-spacing: 5px;
+}
+
+.main {
+     width: 100%;
+     display: inline-block;
+}
+
+.heading {
+     width: 65%;
+     float: left;
+     padding: 20px;
+}
+
+.title-heading {
+     width: 100%;
+     box-shadow: 0px 0px 10px 0px gray;
+     margin-bottom: 50px;
+}
+
+.title-heading img {
+     width: 100%;
+}
+
+.gray {
+     color: gray;
+}
+
+.title-text {
+     padding: 20px;
+     background-color: white;
+}
+
+.title-text h3 {
+     font-weight: 400;
+     padding-bottom: 20px;
+     font-size: 30px;
+}
+
+.title-text h5 {
+     font-size: 20px;
+     font-weight: 300;
+     padding-bottom: 20px;
+}
+
+.title-text p {
+     padding-top: 10px;
+     opacity: 0.8;
+     font-size: 20px;
+}
+
+.read-comment {
+     padding: 0px 10px;
+     padding-top: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.read-comment button {
+     background: none;
+     border: 1px solid black;
+     font-size: 16px;
+     padding: 17px;
+}
+
+.read-comment button:hover {
+     background-color: #ccc;
+     cursor: pointer;
+}
+
+.read-comment span {
+     font-size: 20px;
+}
+
+.count {
+     background-color: black;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 100%;
+}
+
+.intro {
+     width: 35%;
+     float: left;
+     padding: 20px;
+}
+
+.name {
+     background-color: white;
+     width: 100%;
+     box-shadow: 0px 0px 6px 0px gray;
+}
+
+.name img {
+     width: 100%;
+}
+
+.name-text {
+     padding: 20px;
+}
+
+.name-text h3 {
+     font-size: 25px;
+     font-weight: 510;
+     padding-bottom: 20px;
+}
+
+.posts {
+     background-color: white;
+     width: 35%;
+     float: left;
+     margin-top: 60px;
+     box-shadow: 0px 0px 6px 0px gray;
+}
+
+.posts h1 {
+     background-color: #f1f1f1;
+     padding: 20px;
+     font-weight: 300;
+     font-size: 22px;
+}
+
+.post-content img {
+     width: 80px;
+     padding: 10px;
+}
+
+.post-content {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     font-size: 17px;
+     padding: 10px;
+     border-bottom: 1px solid rgb(191, 188, 188);
+}
+
+.post-content span {
+     padding: 20px;
+}
+
+.post-content:hover {
+     background-color: #d6d0d0;
+     cursor: pointer;
+}
+
+.h1 {
+     font-size: 20px;
+}
+
+.tags {
+     background-color: white;
+     width: 35%;
+     float: left;
+     margin-top: 60px;
+     box-shadow: 0px 0px 6px 0px gray;
+}
+
+.tags h4 {
+     background-color: #f1f1f1;
+     padding: 20px;
+     font-weight: 300;
+     font-size: 22px;
+}
+
+.city {
+     background-color: #f1f1f1;
+     padding: 5px;
+     float: left;
+     margin: 0px 10px 10px 0px;
+     color: gray;
+}
+
+.cities {
+     padding: 20px;
+
+}
+
+.cities p {
+     background-color: black;
+     color: white;
+     font-size: 12px;
+     float: left;
+     margin-right: 10px;
+}
+
+.footer {
+     width: 100%;
+     height: 260px;
+     padding: 30px 50px 60px;
+     margin-top: 60px;
+     background-color: rgb(86, 85, 85);
+}
+
+.footer button {
+     background-color: black;
+     border: none;
+     color: white;
+     margin-top: 40px;
+     padding: 20px 40px;
+}
+
+.previous {
+     opacity: 0.6;
+}
+
+.footer h2 {
+     margin-top: 40px;
+     font-weight: 300;
+     color: white;
+}
+
+.footer a {
+     color: white;
+}
+
+.footer a:hover {
+     color: blue;
+     cursor: pointer;
+}
+
+
+@media screen and (max-width:400px) {
+
+     .heading {
+          width: 100%;
+     }
+
+     .main {
+          padding: 0px 20px;
+     }
+
+     .intro {
+          width: 100%;
+     }
+
+     .read-comment span {
+          display: none;
+     }
+
+
+     .tags {
+          height: 350px;
+     }
+
+     .head h3 {
+          font-weight: 300;
+          padding: 20px 10px;
+          margin-bottom: 20px;
+          letter-spacing: 5px;
+     }
+
+     .footer h2 {
+          margin-top: 20px;
+     }
+
+     .footer button {
+          margin-top: 10px;
+     }
+}
